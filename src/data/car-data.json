@@ -1,0 +1,69 @@
+{
+    "desc1": {
+        "title": "Kia Sonet vs Tata Nexon - Comparision", 
+        "content": "S"
+    },
+
+    "comparisonFeatures": {
+        "Engine": [
+            {"name": "Engine Size", "higher": true},
+            {"name": "Engine Bore", "higher": false},
+            {"name": "Compression", "higher": true},
+            {"name": "Cylinders", "higher": false},
+            {"name": "Power", "higher": true}
+        ], 
+        "Dimensions":[
+            {"name": "Height", "higher": true},
+            {"name": "Weight", "higher": false},
+            {"name": "Length", "higher": true}
+        ]
+    },
+    "car1Data":{
+        "carImage":"https://suggestrank.com/images/8795e4a4.jpg", "name":"Honda CRV", "make":"Honda", "model":"CRV", "year":"2020"
+    },
+    "car2Data":{
+        "carImage":"https://suggestrank.com/images/honda-jazz-2017-2019-1519048567.5.jpg", "name":"Honda Jazz", "make":"Honda", "model":"Jazz", "year":"2019"
+    },
+    "popularComparisons":[
+        {"imageUrl1":"https://file.kelleybluebookimages.com/kbb/base/house/2023/2023-BMW-5%20Series-FrontSide_BM5E2301_640x480.jpg", "name1": "2022 BMW 5 Series Sedan", "variant1":"530e xDrive iPerformance Sedan","imageUrl2":"https://suggestrank.com/images/mazda-roadster-2015-2019-1520489007.03.jpg", "name2":"Mazda 6", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://pictures.dealer.com/s/schaumburgaudiaoa/0561/6dc360c398b13190dc3378182bfb1c49x.jpg", "name1":"Audi A6 Sedan", "variant1":"2022 Audi A6 Premium Plus","imageUrl2":"https://suggestrank.com/images/audi-a4-2016-2017-1455205004.51.jpg", "name2":"Audi A3", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://suggestrank.com/images/daewoo-leganza-1997-2008-1469775082.98.jpg", "name1":"Daewoo - Nubira", "variant1":"2.0 TDI","imageUrl2":"https://suggestrank.com/images/daewoo-nubira-2002-2015-1470036230.57.jpg", "name2":"Daewoo - Leganza", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://suggestrank.com/images/2ba7ca71.jpg", "name1":"Fiat Linea", "variant1":"2.0 TDI","imageUrl2":"https://suggestrank.com/images/45b2e9c1.jpg", "name2":"Fiat Ulysse", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://suggestrank.com/images/mazda-atenza-2018-2019-1537376293.68.jpg", "name1":"Mazda Roadster", "variant1":"2.0 TDI","imageUrl2":"https://suggestrank.com/images/mazda-roadster-2015-2019-1520489007.03.jpg", "name2":"Mazda 6", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://pictures.dealer.com/s/schaumburgaudiaoa/0561/6dc360c398b13190dc3378182bfb1c49x.jpg", "name1":"Audi A6", "variant1":"2022 Audi A6 Premium Plus","imageUrl2":"https://suggestrank.com/images/audi-a4-2016-2017-1455205004.51.jpg", "name2":"Audi A3", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://suggestrank.com/images/daewoo-leganza-1997-2008-1469775082.98.jpg", "name1":"Daewoo - Nubira", "variant1":"2.0 TDI","imageUrl2":"https://suggestrank.com/images/daewoo-nubira-2002-2015-1470036230.57.jpg", "name2":"Daewoo - Leganza", "variant2":"2.0 iTDxz"},
+        {"imageUrl1":"https://suggestrank.com/images/2ba7ca71.jpg", "name1":"Fiat Linea", "variant1":"2.0 TDI","imageUrl2":"https://suggestrank.com/images/45b2e9c1.jpg", "name2":"Fiat Ulysse", "variant2":"2.0 iTDxz"}
+    ],
+    "comparedData": [
+        {
+            "categoryName": "Engine", "image": "image/motor.png",
+            "details": [
+                { "name": "Engine Size (CC)", "car1": "1197cc", "car2": "1197cc" },
+                { "name": "Engine Bore", "car1": "0", "car2": "0" },
+                { "name": "Engine Compression", "car1": "9.6", "car2": "9.6" },
+                { "name": "Engine Cylinder", "car1": "4", "car2": "4" },
+                { "name": "Engine Fuel", "car1": "Premium Unleaded", "car2": "Premium Unleaded" },
+                { "name": "Engine Position", "car1": "Front", "car2": "Front" },
+                { "name": "Engine Power", "car1": "565", "car2": "565" }
+            ]
+        },
+        {
+            "categoryName": "Dimension & wight", "image": "image/ruler.png",
+            "details": [
+                { "name": "Length", "car1": "3995mm", "car2": "3995mm" }
+            ]
+        },
+        {
+            "categoryName": "Engine", "image": "image/manual-transmission.png",
+            "details": [
+                { "name": "Engine Size (CC)", "car1": "1197cc", "car2": "1197cc" }
+            ]
+        },
+        {
+            "categoryName": "Engine", "image": "image/tire.png",
+            "details": [
+                { "name": "Engine Size (CC)", "car1": "1197cc", "car2": "1197cc" }
+            ]
+        }
+    ]
+}
