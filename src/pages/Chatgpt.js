@@ -197,7 +197,7 @@ function Chatgpt() {
             }
             catch(e) {
                 if (e.message.includes("429")) {
-                    messageDiv.innerHTML = "You achieved your rate limit, please try again later"
+                    messageDiv.innerHTML = "You achieved your chatGPT rate limit, please try again later"
                 }
                 else {
                     messageDiv.innerHTML = "Something went wrong, please try again: " + e.message 
