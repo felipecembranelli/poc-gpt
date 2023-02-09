@@ -40,7 +40,8 @@ function Chatgpt() {
     }
 
     const configuration = new Configuration({
-        apiKey: process.env.REACT_APP_OPENAI_API_KEY, //  <----- put your API key here   //    visit and register at  (https://beta.openai.com/account/api-keys) for Api keys
+       //apiKey: process.env.REACT_APP_OPENAI_API_KEY, //  <----- put your API key here   //    visit and register at  (https://beta.openai.com/account/api-keys) for Api keys
+       apiKey: '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', //  <----- put your API key here   //    visit and register at  (https://beta.openai.com/account/api-keys) for Api keys
       });
 
     const openai = new OpenAIApi(configuration);
@@ -167,6 +168,7 @@ function Chatgpt() {
 
             try {
 
+                console.log(configuration.apiKey)
                 const response = await openai.createCompletion(newObj.props)
 
                 clearInterval(loadInterval)
